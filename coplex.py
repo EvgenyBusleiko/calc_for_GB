@@ -145,5 +145,6 @@ def Complex_calculator(inlist):
         out_string = f'{inlist[0][0]} - {abs(inlist[0][1])}j'
         return out_string
 
+global CompResult
 CompResult = Complex_calculator(InList)
 print(f'\nYour result: {CompResult}\n')
