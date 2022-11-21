@@ -1,6 +1,10 @@
 # Calculator of complex numbers by Ilia Kozlov for GB
 
-InList = [2, '+', '(', 96, '-', 6, 'j', ')', '-', '(', 45, '+', 5, 'j', ')', '*', 4, '/', '(', -45, '+', 19, 'j', ')'] # Input data
+from menu import var_fin
+
+# InList = [2, '+', '(', 96, '-', 6, 'j', ')', '-', '(', 45, '+', 5, 'j', ')', '*', 4, '/', '(', -45, '+', 19, 'j', ')'] # Input data
+
+InList = var_fin
 
 def Complex_calculator(inlist):
     
